@@ -1,0 +1,10 @@
+C:\Users\Naqib Ali\Desktop\Assignment\Assignment\bin\Assignment.dll.config
+C:\Users\Naqib Ali\Desktop\Assignment\Assignment\bin\Assignment.dll
+C:\Users\Naqib Ali\Desktop\Assignment\Assignment\bin\Assignment.pdb
+C:\Users\Naqib Ali\Desktop\Assignment\Assignment\bin\Assignment.xml
+C:\Users\Naqib Ali\Desktop\Assignment\Assignment\obj\Debug\Assignment.Resources.resources
+C:\Users\Naqib Ali\Desktop\Assignment\Assignment\obj\Debug\Assignment.vbproj.GenerateResource.Cache
+C:\Users\Naqib Ali\Desktop\Assignment\Assignment\obj\Debug\Assignment.dll
+C:\Users\Naqib Ali\Desktop\Assignment\Assignment\obj\Debug\Assignment.xml
+C:\Users\Naqib Ali\Desktop\Assignment\Assignment\obj\Debug\Assignment.pdb
+C:\Users\Naqib Ali\Desktop\Assignment\Assignment\obj\Debug\Assignment.vbprojResolveAssemblyReference.cache

@@ -1,0 +1,92 @@
+﻿body {
+    height:100vh;
+    width:100vw;
+   font-family:Ubuntu;
+   margin:0;
+   padding:0;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:60px;
+    background-color:#0094ff;
+    padding-left:10px;   
+    color:white;
+}
+.header header{
+
+
+}
+nav{
+margin-right:40px
+}
+
+nav ul li{
+    display:inline;
+    margin-left:20px;
+    font-size:20px;
+    padding:10px
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;   
+    
+}
+nav ul li:hover{
+    border:2px solid #10ffe6;
+    border-radius:5px;
+}
+.footer{
+    font-weight:400;
+    position:absolute;
+    bottom:0;
+    text-align:center;
+}
+
+.footer ul li{
+    list-style-type:none;
+    margin:10px 0;
+}
+.footer ul li a{
+    text-decoration:none;
+    color:blue;   
+    
+}
+.footer .row{
+    display:flex;
+  font-family:'AvantGarde Bk BT';
+    justify-content:space-around;
+    
+}
+.row div:nth-child(1){
+    width:50%;
+}
+footer{
+    padding:15px;
+    text-align:center;
+    color:white;
+    background-color:#0094ff;
+
+}
+
+.last i{
+    font-size:30px;
+    color:#0094ff;
+    margin:10px;
+    cursor:pointer;
+    transition:.2s ease-in;
+}
+.last i:hover{
+    color:black;
+}
+h4{
+    text-transform:uppercase;
+}
+.main{
+    padding:20px;
+}
+.v{
+    text-align:left;
+}

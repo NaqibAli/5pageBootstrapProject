@@ -1,0 +1,74 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="admin.Master.vb" Inherits="Assignment.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="styles/main.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="header">
+                <header>
+                    <h3>My Web...</h3>
+                </header>
+                <nav>
+                    <ul>
+                        <li><a href="home.aspx">Home</a> </li>
+                        <li><a href="news.aspx">News</a></li>
+                        <li><a href="controls.aspx">Controls</a></li>
+                        <li><a href="about.aspx">About</a></li>
+                        <li><a href="contact.aspx">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main">
+<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </div>
+            
+            <div class="footer">
+                <div class="row">
+                    <div>
+                        <h4>About</h4>
+                        <p style="font-family:'Century Gothic'">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi vero, tempora eaque a ea perferendis praesentium nostrum, 
+                        alias quod dolores, labore at sed! Quae quas distinctio tenetur fugiat earum quidem.
+Perferendis provident obcaecati sunt veniam, accusamus dolorem veritatis odio labore? Ipsa provident expedita adipisci id. Quisquam cumque sapiente error ad illo 
+                        officia corporis nemo, saepe nulla, architecto odit mollitia sequi?
+Ipsum error tenetur sequi et doloremque omnis quisquam iusto at ullam? Laudantium eos earum, iusto laboriosam provident voluptate modi repellat et distinctio nobis vel sequi, 
+                        facere voluptates nesciunt, blanditiis nisi.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Quick Links</h4>
+                        <ul class="v">
+                            <li><a href="home.aspx">Home</a> </li>
+                            <li><a href="news.aspx">News</a></li>
+                            <li><a href="controls.aspx">Controls</a></li>
+                            <li><a href="about.aspx">About</a></li>
+                            <li><a href="contact.aspx">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="last">
+                        <h4>Follow Us</h4>
+                        <i class="fa fa-facebook-square"></i>
+                        <i class="fa fa-github-square"></i>
+                        <i class="fa fa-twitter-square"></i>
+                    </div>
+
+                </div>
+                <footer>
+                    Naqib ALi @2020
+                </footer>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
